@@ -1,51 +1,145 @@
-body{
-  margin:0;
-  padding:0;
+body {
+  margin: 0;
+  padding: 0;
   background-color: #ebeb75;
 }
 
-.earring{
-
-
+.earring {
+  background-color: #ebeb75;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  margin: 100px 100px;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
-.earring:hover{
-
+.earring:hover {
+  opacity: 90;
 }
 
-.tee{
-
-
+.necklace {
+  background-color: #ebeb75;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  margin: 100px 100px;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
-.necklace{
-
+.necklace:hover {
+  opacity: 90;
 }
 
-.eyes{
-
+.lipz {
+  background-color: #ebeb75;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  margin: 100px 100px;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
-.skull{
-
+.lipz:hover {
+  opacity: 90;
 }
 
-.ciggyz{
-
+.tee {
+  background-color: #ebeb75;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  margin: 100px 100px;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
-.kat{
-
+.tee:hover {
+  opacity: 90;
 }
 
-.legz{
-
+.legz {
+  background-color: #ebeb75;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  margin: 100px 100px;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
-.record{
-
+.legz:hover {
+  opacity: 90;
 }
 
-.lipz{
+.skull {
+  background-color: #ebeb75;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  margin: 100px 100px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
 
+.skull:hover {
+  opacity: 90;
+}
+
+.kat {
+  background-color: #ebeb75;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  margin: 100px 100px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.kat:hover {
+  opacity: 90;
+}
+
+.record {
+  background-color: #ebeb75;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  margin: 100px 100px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.record:hover {
+  opacity: 90;
+}
+
+.ciggyz {
+  background-color: #ebeb75;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  margin: 100px 100px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.ciggyz:hover {
+  opacity: 90;
+}
+
+.eyes {
+  background-color: #ebeb75;
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  margin: 100px 100px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.eyes:hover {
+  opacity: 90;
 }
