@@ -20,3 +20,81 @@ body {
 }
 
 /* Your CSS goes here */
+.vase {
+    position: absolute;
+    display: block;
+    width: 10vw;
+    height: 12vw;
+    background-color: #fbf6ca;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    top: 10%;
+    left: 20%;
+}
+
+.flowers {}
+
+.book1 {
+    position: absolute;
+    width: 20vw;
+    height: 10vw;
+    left: 300px;
+    background: #23a491;
+    top: 460px;
+}
+
+.book2 {
+    position: absolute;
+    width: 10vw;
+    height: 3vw;
+    left: 300px;
+    background: #2a230b;
+    top: 420px;
+}
+
+.camera-body {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background: #323232;
+    top: 49%;
+    left: 12%;
+}
+
+.camera-lens{
+    position: absolute;
+    width: 2vw;
+    height: 3vw;
+    background: #323232;
+    top: 30%;
+    left: 20vw;
+}
+
+.book3 {
+    position: absolute;
+    width: 10vw;
+    height: 20vw;
+    background-color: #dbdbd7;
+    left: 70%;
+    top: 30%;
+}
+
+.body{
+    position: absolute;
+    display: block;
+    width: 7vw;
+    height: 8vw;
+    background-color: #fbf6ca;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 50%;
+    top: 44%;
+    left: 50%;
+}
+
+.table{
+    position: absolute;
+      border-bottom: 46vh solid #d2b090;
+      border-left: 5vh solid transparent;
+      border-right: 5vh solid transparent;
+      height: 0;
+      width: 176vh;
+      top:59%;
+}
