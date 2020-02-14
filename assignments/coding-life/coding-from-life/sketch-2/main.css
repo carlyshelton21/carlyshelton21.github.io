@@ -27,8 +27,8 @@ body {
     height: 12vw;
     background-color: #fbf6ca;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    top: 10%;
-    left: 20%;
+    top: 24%;
+    left: 18%;
 }
 
 .flowers {}
@@ -65,8 +65,8 @@ body {
     width: 2vw;
     height: 3vw;
     background: #323232;
-    top: 30%;
-    left: 20vw;
+    top: 53%;
+    left: 10vw;
 }
 
 .book3 {
@@ -95,6 +95,6 @@ body {
       border-left: 5vh solid transparent;
       border-right: 5vh solid transparent;
       height: 0;
-      width: 176vh;
+      width: 178.5vh;
       top:59%;
 }
