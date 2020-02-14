@@ -1,0 +1,89 @@
+body{
+
+}
+
+@font-face {
+  font-family: 'MaisonNeue-Mono';
+  src: url('../font/MaisonNeue-Mono.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'freight-display-semibold';
+  src: url('../font/freight-display-semibold.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Druk-WideSuper';
+  src: url('../font/Druk-WideSuper.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Druk';
+  src: url('../font/druk.woff') format('woff');
+  font-style: normal;
+}
+
+
+.title {
+  font-size: 34px;
+  line-height: 1.2;
+  font-family: 'Druk-WideSuper', sans-serif;
+  color: white;
+}
+
+
+.body-text {
+  font-size: 18px;
+  line-height: 1.4;
+  color: white;
+  font-family: 'freight-display-semibold', sans-serif;
+}
+
+p{
+    display: block;
+    margin: auto;
+    columns: 2;
+    column-gap: 4vh;
+}
+
+
+.small-title {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-family: 'MaisonNeue-Mono', sans-serif;
+}
+
+
+/* Use border-box sizing for all elements to make adjusting gutter padding easier. */
+* {
+  box-sizing: border-box;
+  background-color: ;
+
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+body{
+    background-color: black;
+}
+
+.img.seal{
+    position: absolute;
+    left: 50vh;
+    top: 20vh;
+}
