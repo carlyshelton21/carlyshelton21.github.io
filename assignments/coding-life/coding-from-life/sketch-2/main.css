@@ -29,9 +29,28 @@ body {
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     top: 24%;
     left: 18%;
+    z-index: 1;
 }
 
-.flowers {}
+.flower-stem {
+    position: absolute;
+    display: block;
+    background-color: green;
+    width: 1vw;
+    height: 4vw;
+    top: -33%;
+    left: 49%;
+}
+
+.flower-petal{
+    position: absolute;
+      width: 6vh;
+      height: 8vh;
+      background: pink;
+      border-radius: 100px / 50px;
+      top:-60%;
+      left: 43%;
+}
 
 .book1 {
     position: absolute;
@@ -85,8 +104,79 @@ body {
     height: 8vw;
     background-color: #fbf6ca;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 50%;
-    top: 44%;
+    top: 45%;
     left: 50%;
+}
+
+.arm1{
+    position: absolute;
+    display: block;
+    width: 2vw;
+    height: 5vw;
+    background-color: #fbf6ca;
+    border-radius: 50% 50% 50% 50% / 50% 50% 40% 50%;
+    top: 48%;
+    left: 57%;
+}
+
+.arm2{
+    position: absolute;
+    display: block;
+    width: 2vw;
+    height: 5vw;
+    background-color: #fbf6ca;
+    border-radius: 50% 50% 50% 50% / 50% 50% 40% 50%;
+    top: 48%;
+    left: 48%;
+}
+
+.head{
+    position: absolute;
+    display: block;
+    width: 7vw;
+    height: 6vw;
+    background-color: #fbf6ca;
+    border-radius: 70% 70% 50% 50% / 70% 70% 40% 50%;
+    top: 37%;
+    left: 50%;
+}
+
+.ear1{
+    position: absolute;
+    display: block;
+    width: 3vw;
+    height: 3vw;
+    background-color: #fbf6ca;
+    border-radius: 40% 40% 50% 50% / 40% 40% 40% 50%;
+    top: 35%;
+    left: 56%;
+}
+
+.ear2{
+    position: absolute;
+    display: block;
+    width: 3vw;
+    height: 3vw;
+    background-color: #fbf6ca;
+    border-radius: 40% 40% 50% 50% / 40% 40% 40% 50%;
+    top: 35%;
+    left: 48%;
+}
+
+.cat-word1{
+    position: absolute;
+    font-family: helvetica;
+    top:45%;
+    left:53%;
+    font-size: 4vh;
+}
+
+.cat-word2{
+    position: absolute;
+    font-family: helvetica;
+    top:40%;
+    left:50%;
+    font-size: 4vh;
 }
 
 .table{
