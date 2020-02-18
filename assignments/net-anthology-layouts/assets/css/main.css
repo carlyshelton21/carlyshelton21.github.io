@@ -1,7 +1,3 @@
-body{
-
-}
-
 @font-face {
   font-family: 'MaisonNeue-Mono';
   src: url('../font/MaisonNeue-Mono.woff') format('woff');
@@ -9,8 +5,14 @@ body{
 }
 
 @font-face {
-  font-family: 'freight-display-semibold';
-  src: url('../font/freight-display-semibold.woff') format('woff');
+  font-family: 'NittiGrotesk-Regular';
+  src: url('../font/NittiGrotesk-Regular.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NittiGrotesk-Light';
+  src: url('../font/NittiGrotesk-Light.woff') format('woff');
   font-style: normal;
 }
 
@@ -26,20 +28,73 @@ body{
   font-style: normal;
 }
 
-
-.title {
-  font-size: 34px;
-  line-height: 1.2;
-  font-family: 'Druk-WideSuper', sans-serif;
-  color: white;
+@font-face {
+  font-family: 'misterpixelreg';
+  src: url('../font/misterpixelreg.woff') format('woff');
+  font-style: normal;
 }
 
 
+
+body{
+    background-color: black;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.top-page{
+    position: sticky;
+}
+
+.vote{
+    position: absolute;
+    font-family: 'misterpixelreg', sans-serif;
+    color: white;
+    font-size: 9vw;
+    left: 15%;
+    z-index: 1;
+}
+
+.auction{
+    position: absolute;
+    font-family: 'misterpixelreg', sans-serif;
+    color: white;
+    font-size: 9vw;
+    top: 40%;
+    right: 5%;
+    z-index: 1;
+}
+
+.seal{
+    position: relative;
+    top: 30%;
+    left: 39%;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 15px;
+}
+
+
+.title {
+    position: relative;
+  font-size: 34px;
+  line-height: 1.2;
+  font-family: 'Druk-WideSuper', sans-serif;
+  color: black;
+  background-color: white;
+}
+
 .body-text {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4;
   color: white;
-  font-family: 'freight-display-semibold', sans-serif;
+  font-family: 'NittiGrotesk-Regular', sans-serif;
+ text-decoration: underline;
 }
 
 p{
@@ -49,41 +104,36 @@ p{
     column-gap: 4vh;
 }
 
-
-.small-title {
-  font-size: 18px;
-  color: white;
-  font-weight: bold;
-  line-height: 1.2;
-  letter-spacing: 1px;
-  font-family: 'MaisonNeue-Mono', sans-serif;
+a{
+    color: black;
 }
 
-
-/* Use border-box sizing for all elements to make adjusting gutter padding easier. */
-* {
-  box-sizing: border-box;
-  background-color: ;
-
+.grid2 {
+  margin-top: 2%;
+   margin-bottom: 2%;
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr;
+   grid-gap: 15px;
 }
 
-.row {
-  display: flex;
+.homepage{
+    margin-right: 2%;
+    border-width: medium;
+    border-color: white;
+    border-style: solid;
 }
 
-.col {
-  width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
+.body-text2{
+    font-size: 19px;
+    line-height: 1.4;
+    color: white;
+    font-family: 'NittiGrotesk-Light', sans-serif;
+    text-decoration: underline;
 }
 
-
-body{
-    background-color: black;
-}
-
-.img.seal{
-    position: absolute;
-    left: 50vh;
-    top: 20vh;
+.check{
+    margin-left: 2%;
+    border-width: medium;
+    border-color: white;
+    border-style: solid;
 }
