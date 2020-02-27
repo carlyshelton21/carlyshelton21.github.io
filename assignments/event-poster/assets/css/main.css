@@ -1,0 +1,71 @@
+body{
+    background-color: red;
+    margin: 0%;
+}
+
+/* Apply border-box layout to all elements (makes it easier to apply padding and borders without changing the size of elements) */
+* { box-sizing: border-box }
+
+
+/* Set a max width of 100% to all images, while maintaing the image's ratio. This prevents images from overflowing from their container element. */
+img {
+  max-width: 100%:
+  height: auto;
+}
+
+.contianer{
+width: 100%;
+height: 100vh;
+display: flex;
+outline-style: solid;
+}
+
+.title{
+animation: spinType;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+margin: auto;
+text-transform: uppercase;
+font-size: 6vmin;
+font-family: 'Kumar One Outline', cursive;
+}
+
+.venue{
+font-family: 'New Rocker', cursive;
+font-size: 6vmin;
+}
+
+.info{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 3vmin;
+}
+
+#pentagon {
+    width: 54px;
+    position: relative;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: #277bab transparent;
+}
+
+#pentagon:before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent #277bab;
+}
+        /* @keyframes spinType {
+          0% {
+            transform: rotate(0deg);
+          }
+
+          100% {
+            transform: rotate(360deg);
+          }
+        } */

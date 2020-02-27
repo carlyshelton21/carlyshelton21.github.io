@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'rockwell';
+  src: url('../type/rockwell.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Marlboro';
+  src: url('../type/Marlboro.woff') format('woff');
+  font-style: normal;
+}
+
+  *{
+      box-sizing: border-box;
+  }
+
+body{
+    background-color: #ffffff;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.title{
+
+}
+
+.pov{
+    display: flex;
+    justify-content: center;
+    font-family: 'Marlboro';
+    font-size: 800%;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    font-family: 'neue-aachen-pro', sans-serif;
+    font-weight: 400;
+    font-size: 300%;
+    font-style: normal;
+}
+
+.concept{
+    margin-top: 8%;
+    font-family: 'Marlboro';
+    font-size: 500%;
+}
+
+h3{
+    font-family: 'neue-aachen-pro', sans-serif;
+    font-weight: 400;
+    font-size: 200%;
+    font-style: normal;
+}
+
+h4{
+
+    font-family: 'neue-aachen-pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+    font-family: 'rockwell';
+}
+
+
+h1{
+    font-family: 'neue-aachen-pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%
+}
+
+h2{
+    font-size: 100%;
+    font-family: 'rockwell';
+}
+
+p{
+    font-size: 100%;
+    font-family: 'Zilla Slab' ;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-top: 2%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column2 {
+  float: left;
+  width: 25%;
+  margin-top: 2%;
+  padding: 10px;
+}
+
+.column3 {
+  float: left;
+  width: 25%;
+  margin-top: 2%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .column2 {
+    width: 100%;
+  }
+  .column3 {
+    width: 100%;
+  }
+}
