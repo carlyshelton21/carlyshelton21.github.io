@@ -74,10 +74,10 @@ text-shadow:
 
 
       @media screen and (max-width: 600px) {
-          .img{
-              position: absolute;
-              width: 100%;
-              height: auto;
+          img{
+
+            /* right: */
+              max-width: 100%;
           }
 
           .title{
@@ -89,6 +89,6 @@ text-shadow:
           }
 
           .info{
-
+              top:50%;
           }
       }
