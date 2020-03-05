@@ -10,9 +10,6 @@
   font-style: normal;
 }
 
-  *{
-      box-sizing: border-box;
-  }
 
 body{
     background-color: #ffffff;
@@ -20,6 +17,14 @@ body{
     margin-left: 2%;
     margin-right: 2%;
 }
+
+.body{
+    font-family: "rockwell";
+    font-size: 150%;
+    background-color: #ffffff;
+}
+
+
 
 
 .pov{
@@ -60,14 +65,6 @@ body{
 
 }
 
-.media-figure{
-}
-
-.media-body{
-    font-family: 'rockwell';
-    font-size: x-large;
-}
-
 .name{
     font-family: 'Marlboro';
     font-size: 150%;
@@ -79,20 +76,10 @@ body{
   margin-top: 3%;
 }
 
-.Media-figure2 {
-  margin-right: 1em;
-  height:100vh;
-  width:auto;
-}
-
-.Media-body2 {
+.body2 {
   flex: 1;
 }
 
-.column {
-  float: left;
-  width: 10%;
-}
 
 .cig1{
     display: flex;
@@ -104,24 +91,11 @@ body{
     justify-content: center;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .Media3 {
-
-}
-
-.Media-figure3 {
   margin-right: 1em;
   height:100vh;
   width:auto;
-}
-
-.Media-body3 {
-  flex: 1;
 }
 
 h3{
@@ -170,12 +144,27 @@ p{
 } */
 
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
 
+    .column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+    }
   }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
 
+    .row{
+        margin-left: 5%;
+    }
   }
 
   @media screen and (max-width: 800px) {
@@ -216,7 +205,7 @@ p{
     }
 
     .column {
-   flex: 1
+   flex: 2;
  }
 
   }
@@ -225,9 +214,18 @@ p{
 /* Put your print styles at the bottom of your CSS, so that they take precedence over the styles defined at the beginning of your CSS file. Remember that CSS styles cascade down. */
 @media print {
   /* All your print styles go here, for example: */
-  .header,
-  .footer,xxx
-  .nav {
-    display: none !important;
+  .body{
+      font-size: 120%;
   }
+  .Media-body2 {
+    margin-top: -20%;
+  }
+
+  .cigs1 {
+      page-break-before: always;
+    }
+    .gif{
+        page-break-before: always;
+    }
+
 }
