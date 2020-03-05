@@ -37,6 +37,7 @@ body{
     font-weight: 400;
     font-size: 300%;
     font-style: normal;
+    margin-bottom: 5%;
 }
 
 .row {
@@ -55,11 +56,11 @@ body{
 
 
 .some-page-wrapper {
-  margin: 5%;
+  margin-top: 2%;
+
 }
 
 .media-figure{
-
 }
 
 .media-body{
@@ -137,6 +138,12 @@ p{
     font-family: 'Zilla Slab' ;
 }
 
+.gif{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
 
 /* .cursor {
   cursor: url('path-to-image.png'), auto;
@@ -158,12 +165,17 @@ p{
           justify-content: flex-start;
       }
 
-      .media-body{
+      /* .media-body{
           font-size: large;
+      } */
+
+      .pov{
+          display: flex;
+          justify-content: flex-start;
+
       }
 
-
-
+}
   @media screen and (max-width: 600px) {
 
 
