@@ -91,6 +91,10 @@ body{
     justify-content: center;
 }
 
+.media3{
+    margin-bottom: 50%;
+}
+
 h3{
     font-family: 'neue-aachen-pro', sans-serif;
     font-weight: 400;
@@ -210,15 +214,7 @@ p{
   .body{
       font-size: 120%;
   }
-  .Media-body2 {
-    margin-top: -20%;
-  }
-
-  .cigs1 {
+  .cigs1{
       page-break-before: always;
-    }
-    .gif{
-        page-break-before: always;
-    }
-
+  }
 }
