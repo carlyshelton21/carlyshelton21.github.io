@@ -89,9 +89,29 @@ body{
   flex: 1;
 }
 
+.column {
+  float: left;
+  width: 10%;
+}
+
+.cig1{
+    display: flex;
+    justify-content: center;
+}
+
+.cig2{
+    display: flex;
+    justify-content: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .Media3 {
 
-  margin-top: 3%;
 }
 
 .Media-figure3 {
@@ -173,6 +193,16 @@ p{
           display: flex;
           justify-content: flex-start;
 
+      }
+
+      .cig1{
+              display: flex;
+              justify-content: flex-start;
+      }
+
+      .cig2{
+          display: flex;
+          justify-content: flex-start;
       }
 
 }
